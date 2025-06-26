@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-24T17:54:07 IST" name="Default suite" finished-at="2025-06-24T17:54:31 IST" duration-ms="23873">
+    <groups>
+    </groups>
+    <test started-at="2025-06-24T17:54:07 IST" name="Default test" finished-at="2025-06-24T17:54:31 IST" duration-ms="23873">
+      <class name="com.parallel.ParallelTest">
+        <test-method signature="testChrome()[pri:1, instance:com.parallel.ParallelTest@1fa121e2]" started-at="2025-06-24T17:54:07 IST" name="testChrome" finished-at="2025-06-24T17:54:20 IST" duration-ms="12911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChrome -->
+        <test-method signature="testFirefox()[pri:2, instance:com.parallel.ParallelTest@1fa121e2]" started-at="2025-06-24T17:54:20 IST" name="testFirefox" finished-at="2025-06-24T17:54:29 IST" duration-ms="8815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirefox -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.parallel.ParallelTest@1fa121e2]" started-at="2025-06-24T17:54:29 IST" name="close" finished-at="2025-06-24T17:54:31 IST" duration-ms="2061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.parallel.ParallelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
