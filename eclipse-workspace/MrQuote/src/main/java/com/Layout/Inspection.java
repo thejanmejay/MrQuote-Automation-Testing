@@ -26,8 +26,6 @@ public class Inspection {
     private static final By STYLE_CHANGE_LINK = By.xpath("//a[normalize-space()='Change']");
     private static final By RADIO_OPTION_2 = By.xpath("//input[@type='radio' and @id='option2']");
     private static final By STYLE_SAVE_BUTTON = By.id("saveButton");
-    private static final By LOADER = By.id("loader");
-
     // Local image paths
     private static final String[] DEFAULT_IMAGES = {
         "C:\\Users\\JanmejaySingh\\Downloads\\10.jpg",
