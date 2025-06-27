@@ -30,8 +30,8 @@ public class LayoutCreation {
             // Step 2: Enter Layout Name
             WebElement layoutNameInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("layoutName")));
             layoutNameInput.clear();
-            layoutNameInput.sendKeys("Layout Test - 26/06/2025");
-            System.out.println("Layout name entered: New Layout");
+            layoutNameInput.sendKeys("Layout Test - 27/06/2025");
+            System.out.println("Layout name entered: " + layoutNameInput.getAttribute("value"));
 
             // Step 3: Click Save
             WebElement saveButton = driver.findElement(By.id("DisableSave"));
