@@ -49,8 +49,8 @@ public class Title {
             LastName.sendKeys("Singh");
             Email.sendKeys("janmejay@gnxtsystems.com");
             Phone.sendKeys("6262173362");
-            Company.sendKeys("GNXT Systems");
-            Address.sendKeys("Homes 121");
+            Company.sendKeys("Demo Company");
+            Address.sendKeys("Homes 121, Sector 121");
             City.sendKeys("Noida");
             State.sendKeys("U.P");
             ZipCode.sendKeys("20131");
